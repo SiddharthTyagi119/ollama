@@ -1,0 +1,21 @@
+You have to install ollama in machine to use it.
+1- download the model
+2- open cmd and type 
+   ollama
+   ollama run <model_name> - pull the model
+   ollama run <model_name> - run the model
+   
+3- make a dir and open it in vs code
+4- create a model file to provide the customize instructions to model
+5- open cmd  in the project working dir
+   ollama create AIKING -f modelfile - to make assistant
+   ollama run AIKING - to run our own assistant
+
+6- create test.py and test.ipynb file
+7- open test.ipynb
+8- open test.py
+
+
+Note- To finetune we can use adapter technique.
+
+   
